@@ -13,7 +13,7 @@ const TopNews = () => {
                             <p><small>১ ঘণ্টা আগে</small></p>
 
                         </div>
-                        <div className='col-md-6 '>
+                        <div className='col-md-6 mb-3 '>
                             <div className=''>
                                 <img className='w-100' src="https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2Fd7e6efd7-c234-4113-8fca-5a684da3532d%2FMamunul.jpg" alt="" />
                             </div>
