@@ -11,6 +11,7 @@ const News2 = (props) => {
             <p><small>১ ঘণ্টা আগে</small></p>
 
         </div>
+        
     );
 };
 
