@@ -6,9 +6,7 @@ import Footer from '../Footer/Footer';
 import News4 from './News4';
 import picc from "../../../images/deo.png"
 
-
-
-const top = [
+const allnews = [
   {
     "id": "9730adec",
     "title": "ঢাকায় মামুনুলের বিরুদ্ধে ১৭ মামলা",
@@ -25,10 +23,34 @@ const top = [
     "description": "হাতে, কাঁধের নিচে, বুকে ধারালো অস্ত্রের পোঁচ। হাঁ হয়ে থাকা ক্ষততে সেলাই পড়েছে সদ্য। সচিবালয়ের পাশে জাতীয় প্রেসক্লাবের ছোট ফটকের কাছে একটা চেয়ারে এমন আঘাত নিয়ে প্রায় অচেতন অবস্থায় রোববার বিকেলে বসেছিলেন নর্থ সাউথ বিশ্ববিদ্যালয়ের ছাত্র রাব্বী হোসেন শুভ। এক মাস অজ্ঞাত জায়গায় আটকে রেখে অপহরণকারীরা তাঁর ওপর নির্যাতন চালিয়েছে বলে পরিবারের অভিযোগ।",
     "time": "2021-04-18T21:39:36+06:00",
     "sort": 1
-  }
-]
-
-const omarnews = [
+  },
+  {
+    "id": "985aae1b",
+    "title": "নিম্ন আয়ের ৩৫ লাখ পরিবার পাবে প্রধানমন্ত্রীর সহায়তা",
+    "sup-title": "করোনাভাইরাস পরিস্থিতি",
+    "description": "করোনাভাইরাসের সংক্রমণ পরিস্থিতিতে নিম্ন আয়ের প্রায় ৩৫ লাখ পরিবারকে আড়াই হাজার টাকা করে আর্থিক সহায়তা দেবেন প্রধানমন্ত্রী শেখ হাসিনা। এ ছাড়া সম্প্রতি প্রাকৃতিক দুর্যোগে ক্ষতিগ্রস্ত এক লাখ কৃষক পরিবার পাবে পাঁচ হাজার করে। এ জন্য সরকারের ৯৩০ কোটি টাকা ব্যয় হবে। প্রধানমন্ত্রীর প্রেস সচিব ইহসানুল করিম রোববার বার্তা সংস্থা বাসসকে এ তথ্য জানিয়েছেন।",
+    "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-02%2Fa57ebbd7-88a7-47ba-8b57-0c8f4885cc5b%2FUntitled_1.jpg",
+    "time": "2021-04-18T21:44:01+06:00",
+    "sort": 2
+  },
+  {
+    "id": "d61d5bea",
+    "title": "আমার সরল মনের সরল উক্তি বিকৃত করা হয়েছে: মির্জা আব্বাস",
+    "sup-title": "",
+    "description": "ইলিয়াস আলীর নিখোঁজের পেছনে দলের নেতাদের সন্দেহ করে দেওয়া বক্তব্যের ২৪ ঘণ্টা পর সেই বক্তব্য অস্বীকার করেছেন দলের স্থায়ী কমিটির সদস্য মির্জা আব্বাস। তিনি বলছেন, ‘আমার কথাকে বিকৃত করা হয়েছে। আমার সহজ–সরল মনের সরল উক্তিগুলোকে বিকৃত করে যার যেখান থেকে প্রয়োজন কেটেছিঁড়ে ইচ্ছেমতো লাগিয়ে দেওয়া হয়েছে।’",
+    "photo": "https://images.prothomalo.com/prothomalo-bangla/2021-04/bdfc0f6b-c4f1-4816-bfcd-1acb6c95ab5c/frame.png",
+    "time": "2021-04-18T18:49:01+06:00",
+    "sort": 4
+  },
+  {
+    "id": "b5a41f4b",
+    "title": "করোনার দ্বিতীয় ঢেউ কীভাবে সামলানো যাবে",
+    "sup-title": "মতামত",
+    "description": "গত ফেব্রুয়ারি ২০২১-এ সংক্রমণ কমে যাওয়ায় মানুষ স্বস্তির নিশ্বাস ফেলেছিল। করোনা বিদায় নিয়েছে ভেবে মানুষ বেপরোয়া হয়ে গিয়েছিল। স্বাস্থ্যবিধি মানার বালাই ছিল না, ধর্মীয় ও সামাজিক অনুষ্ঠানে ব্যাপক জনসমাগম হচ্ছিল। পর্যটন কেন্দ্রগুলোতে মানুষ উপচে পড়ছিল। ফলে যা হওয়ার, মার্চ ২০২১ থেকে করোনা ব্যাপক সংক্রমণ লক্ষ করা যাচ্ছে। প্রতিদিন মৃত্যুর সারি দীর্ঘতর হচ্ছে। ফলে সরকার করোনা নিয়ন্ত্রণে পয়লা বৈশাখ থেকে এক সপ্তাহের জন্য লকডাউন ঘোষণা করেছে, এ সীমা হয়তো আরও বর্ধিত হতে পারে।",
+    "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2F85fab35f-9d15-4be7-a714-4a6f6b5d63a9%2FCovid.jpg",
+    "time": "2021-04-18T19:32:28+06:00",
+    "sort": 5
+  },
   {
     "id": "b5a41f4b",
     "title": "করোনার দ্বিতীয় ঢেউ কীভাবে সামলানো যাবে",
@@ -83,39 +105,7 @@ const omarnews = [
     "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2Fe0c67b17-9e6c-4f09-b1b0-86ee48a10650%2Fkabari.jfif",
     "time": "2021-04-18T09:30:00+06:00",
     "sort": 11
-  }
-]
-const news = [
-  {
-    "id": "985aae1b",
-    "title": "নিম্ন আয়ের ৩৫ লাখ পরিবার পাবে প্রধানমন্ত্রীর সহায়তা",
-    "sup-title": "করোনাভাইরাস পরিস্থিতি",
-    "description": "করোনাভাইরাসের সংক্রমণ পরিস্থিতিতে নিম্ন আয়ের প্রায় ৩৫ লাখ পরিবারকে আড়াই হাজার টাকা করে আর্থিক সহায়তা দেবেন প্রধানমন্ত্রী শেখ হাসিনা। এ ছাড়া সম্প্রতি প্রাকৃতিক দুর্যোগে ক্ষতিগ্রস্ত এক লাখ কৃষক পরিবার পাবে পাঁচ হাজার করে। এ জন্য সরকারের ৯৩০ কোটি টাকা ব্যয় হবে। প্রধানমন্ত্রীর প্রেস সচিব ইহসানুল করিম রোববার বার্তা সংস্থা বাসসকে এ তথ্য জানিয়েছেন।",
-    "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-02%2Fa57ebbd7-88a7-47ba-8b57-0c8f4885cc5b%2FUntitled_1.jpg",
-    "time": "2021-04-18T21:44:01+06:00",
-    "sort": 2
   },
-  {
-    "id": "d61d5bea",
-    "title": "আমার সরল মনের সরল উক্তি বিকৃত করা হয়েছে: মির্জা আব্বাস",
-    "sup-title": "",
-    "description": "ইলিয়াস আলীর নিখোঁজের পেছনে দলের নেতাদের সন্দেহ করে দেওয়া বক্তব্যের ২৪ ঘণ্টা পর সেই বক্তব্য অস্বীকার করেছেন দলের স্থায়ী কমিটির সদস্য মির্জা আব্বাস। তিনি বলছেন, ‘আমার কথাকে বিকৃত করা হয়েছে। আমার সহজ–সরল মনের সরল উক্তিগুলোকে বিকৃত করে যার যেখান থেকে প্রয়োজন কেটেছিঁড়ে ইচ্ছেমতো লাগিয়ে দেওয়া হয়েছে।’",
-    "photo": "https://images.prothomalo.com/prothomalo-bangla/2021-04/bdfc0f6b-c4f1-4816-bfcd-1acb6c95ab5c/frame.png",
-    "time": "2021-04-18T18:49:01+06:00",
-    "sort": 4
-  },
-  {
-    "id": "b5a41f4b",
-    "title": "করোনার দ্বিতীয় ঢেউ কীভাবে সামলানো যাবে",
-    "sup-title": "মতামত",
-    "description": "গত ফেব্রুয়ারি ২০২১-এ সংক্রমণ কমে যাওয়ায় মানুষ স্বস্তির নিশ্বাস ফেলেছিল। করোনা বিদায় নিয়েছে ভেবে মানুষ বেপরোয়া হয়ে গিয়েছিল। স্বাস্থ্যবিধি মানার বালাই ছিল না, ধর্মীয় ও সামাজিক অনুষ্ঠানে ব্যাপক জনসমাগম হচ্ছিল। পর্যটন কেন্দ্রগুলোতে মানুষ উপচে পড়ছিল। ফলে যা হওয়ার, মার্চ ২০২১ থেকে করোনা ব্যাপক সংক্রমণ লক্ষ করা যাচ্ছে। প্রতিদিন মৃত্যুর সারি দীর্ঘতর হচ্ছে। ফলে সরকার করোনা নিয়ন্ত্রণে পয়লা বৈশাখ থেকে এক সপ্তাহের জন্য লকডাউন ঘোষণা করেছে, এ সীমা হয়তো আরও বর্ধিত হতে পারে।",
-    "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2F85fab35f-9d15-4be7-a714-4a6f6b5d63a9%2FCovid.jpg",
-    "time": "2021-04-18T19:32:28+06:00",
-    "sort": 5
-  }
-]
-
-const omarr = [
   {
     "id": "3b9597d8",
     "title": "পিপিই উৎপাদনে অনুদান দিচ্ছে বিশ্বব্যাংক, আজ থেকেই আবেদন",
@@ -133,55 +123,66 @@ const omarr = [
     "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2F32c2e4aa-cad0-4561-8d95-4bf605197234%2Fworld_bank.jpg",
     "time": "2021-04-18T16:15:20+06:00",
     "sort": 13
+  },
+  {
+    "id": "fba37051",
+    "title": "স্মৃতিতে মিষ্টি মেয়ে...",
+    "sup-title": "",
+    "description": "",
+    "photo": "https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2Ff234e977-9b52-464e-9296-26962286cec7%2FUntitled_8.png",
+    "time": "2021-04-18T21:44:54+06:00",
+    "sort": 12
   }
-]
 
+]
 const News = () => {
   return (
-    <div className='px-5'>
+    <section className='px-5'>
       <div className='row'>
         <div className='col-md-9 '>
-          <div className='row border-end border-2'>
+          <section className='row border-end border-2'>
             {
-              top.map((t, i) => <TopNews key={t.id} t={t} i={i}></TopNews>)
+              allnews.slice(0, 2).map((top, index) => <TopNews key={top.id} top={top} index={index}></TopNews>)
             }
-          </div>
+          </section>
           <hr className='ps-5' />
-          <div className='row ps-5'>
+          <section className='row ps-5'>
             {
-              news.map(n => <News2 key={n.id} n={n}></News2>)
+              allnews.slice(2, 5).map(second => <News2 key={second.id} second={second}></News2>)
             }
-          </div>
+          </section>
 
-          <div className='row ps-5'>
+          <section className='row ps-5'>
             {
-              omarnews.map(omar => <News4 key={omar.id} omar={omar}></News4>)
+              allnews.slice(5, 11).map(third => <News4 key={third.id} third={third}></News4>)
             }
-          </div>
+          </section>
 
         </div>
-        <div className='col-md-3'>
-          <div className='border-bottom border-2 mt-3 ' style={{ height: "35%" }}>
+        <section className='col-md-3'>
+          <article className='border-bottom border-2 mt-3 ' style={{ height: "35%" }}>
             <div className='col-md-1 ' >
               <img width="250px" height="300px" src={picc} alt="" />
             </div>
-          </div>
-          <div className='border-bottom border-2 mt-3'>
-            <div className='col-md-1 ' >
-              <img width="250px" src="https://images.prothomalo.com/prothomalo-bangla%2F2021-04%2Ff234e977-9b52-464e-9296-26962286cec7%2FUntitled_8.png" alt="" />
-            </div>
-            <p>স্মৃতিতে মিষ্টি মেয়ে...</p>
-          </div>
+          </article>
           {
-            omarr.map((op, i) => <News3 key={op.id} i={i} op={op}></News3>)
+            allnews.slice(13, 14).map(forth => <div key={forth.id} className='border-bottom border-2 mt-3'>
+              <div className='col-md-1 ' >
+                <img width="250px" src={forth.photo} alt="" />
+              </div>
+              <p>{forth.title}</p>
+            </div>)
+          }
+          {
+            allnews.slice(11, 13).map((fifth, index) => <News3 key={fifth.id} index={index} fifth={fifth}></News3>)
           }
 
-        </div>
+        </section>
 
         <hr />
       </div>
       <Footer></Footer>
-    </div>
+    </section>
   );
 };
 
