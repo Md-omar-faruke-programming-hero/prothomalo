@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import News4 from './News4';
 import picc from "../../../images/deo.png"
 
+
 const allnews = [
   {
     "id": "9730adec",
